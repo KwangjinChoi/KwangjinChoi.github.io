@@ -1,0 +1,191 @@
+# Site
+repository: sproogen/resume-theme
+favicon: images/favicon.ico
+
+# Content configuration version
+version: 2
+
+# Personal info
+name: Geonho Bang
+title: Autonomous Driving Researcher (PhD Candidate)
+email: ghbang@spa.hanyang.ac.kr
+website: www.github.com/geonhobang
+
+# Dark Mode (true/false/never)
+darkmode: false
+
+# Social links
+# twitter_username: facespics
+# github_username:  sproogen
+# stackoverflow_username: "00000001"
+# dribbble_username: jekyll
+# facebook_username: jekyll
+# flickr_username: jekyll
+# instagram_username: jameswgrant
+linkedin_username: geonho-3164802b1
+# xing_username: jekyll
+# pinterest_username: jekyll
+# youtube_username: globalmtb
+# googleplus_username: +jekyll
+# orcid_username: 0000-0000-0000-0000
+
+# Additional icon links
+additional_links:
+- title: itsgoingto.be
+  icon: fas fa-globe
+  url: https://spa.snu.ac.kr/publications
+# - title: another link
+#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
+#   url: Link url (eg. https://google.com)
+
+# Google Analytics and Tag Manager
+# Using more than one of these may cause issues with reporting
+# gtm: "GTM-0000000"
+# gtag: "UA-00000000-0"
+# google_analytics: "UA-00000000-0"
+
+# About Section
+# about_title: About Me
+about_profile_image: images/ghbang_profile.jpg
+about_content: | # this will include new lines to allow paragraphs
+  Hi, my name's Geonho Bang and I'm a PhD student at the SPA Lab under Professor Junwon Choi at Seoul National University. 
+  My research focuses on perception systems for autonomous driving, specifically 3D object recognition using radar sensors.
+  Throughout my PhD journey, I have worked on advanced radar-based perception algorithms to enhance the safety and efficiency of self-driving cars.
+  I have had the opportunity to collaborate with leading automotive companies such as Hyundai Motors and HL Klemove, which has provided me with valuable industry insights and practical experience.
+  My work has been recognized at prestigious conferences like CVPR and ICRA, where I have submitted several research papers.
+
+  I am most skilled in: <mark>Autonomous Driving</mark>, <mark>Knowledge Distillation</mark>, <mark>Radar-based 3D Object Detection</mark>, and <mark>Machine Learning</mark>
+
+content:
+  - title: Overview
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      <div style="font-size: 30px;">
+      Research interest areas:
+      <ul style="font-size: 20px;">
+        <li>Perception for intelligent vehicles and mobile robots</li>
+        <li>Knowledge Distillation for 3D object detection</li>
+        <li>Radar, Camera and LiDAR-based 3D object detection</li>
+        <li>Sensor fusion-based 3D object detection and tracking</li>
+        <li>Radar based point cloud generation</li>
+      </ul>
+      </div>
+
+
+  - title: Education # Title for the section
+    layout: text # Type of content section (list/text)
+    content: |
+      ## **Ph.D. in Artificial Intelligence (Advisor: Prof. Jun Won Choi)**
+      *Hanyang University, Seoul, South Korea*
+
+      *Mar 2024 - Present*
+
+      <br>
+      ## **M.S. in Artificial Intelligence (Advisor: Prof. Jun Won Choi)**
+      *Hanyang University, Seoul, South Korea*
+      
+      *Mar 2022 - Feb 2024*
+
+      <br>
+      ## **B.S. in Automobile and IT Convergence**
+      *Kookmin University, Seoul, South Korea*
+     
+      *Mar 2016 - Feb 2022*
+
+  - title: Publications  # Title for the section
+    layout: text # Type of content section (list/text)
+    content: |
+    
+      ## **<a href="https://arxiv.org/pdf/2403.05061" style="color:blue;text-decoration:none;" target="_blank">RadarDistill: Boosting Radar-based Object Detection Performance via Knowledge Distillation from LiDAR Features</a>**
+      *IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2024*
+
+      **Geonho Bang**, Kwangjin Choi*, Jisong Kim, Minjae Seong, Dongsuk Kum and Jun Won Choi
+     
+      <br>
+      ## **<a href="https://arxiv.org/pdf/2403.01663" style="color:blue;text-decoration:none;" target="_blank">PillarGen: Enhancing Radar Point Cloud Density and Quality via Pillar-based Point Generation Network</a>**
+      *IEEE International Conference on Robotics and Automation (ICRA), 2024.*
+
+      **Geonho Bang**, Jisong Kim*, Kwangjin Choi, Minjae Seong, Jaechang Yoo, Eunjon Pyo and Jun Won Choi
+
+      <br>
+      ## **<a href="https://arxiv.org/pdf/2403.01663" style="color:blue;text-decoration:none;" target="_blank">RCM-Fusion: Radar-Camera Multi-Level Fusion for 3D Object Detection</a>**
+      *IEEE International Conference on Robotics and Automation (ICRA), 2024.*
+     
+      Jisong Kim*, Minjae Seong*, **Geonho Bang**, Dongsuk Kum, and Jun Won Choi
+
+      (* indicates equal contributions)
+
+  - title: Projects  # Title for the section
+    layout: text # Type of content section (list/text)
+    content: |
+      ## **Development of 3D Object Detection Network using Camera-Radar-LiDAR Sensor Fusion**
+      *Hyundai Motor Group* (Apr 2024 - Apr 2025)
+
+      - Develop a Lightweight Radar-Camera Sensor Fusion Model
+      - Develop Knowledge Distillation Methods for Radar-Camera Sensor Fusion Model
+
+       <br>
+      ## **Development of the basic technology for AR smart glasses that can be used for prehospital advanced life support**
+      *Hanyang University Guri Hospital* (Oct 2023 - Feb 2024)
+
+      - Collect the Cardio Pulmonary Resuscitation (CPR) compression depth measurement and image using Ambu manikin and smartphone
+      - Design the deep learning based Cardio Pulmonary Resuscitation (CPR) compression depth estimation network using smartphone image
+
+     
+      <br>
+      ## **Radar Point Cloud Perception Network Development**
+      *HL Klemove* (Jul 2022 - Jun 2023)
+
+      - Develop the radar point cloud generation network to enhance point density and quality
+      - Design the radar-based 3D object detector using knowledge distillation from high-quality radar to low-quality radar
+
+     
+      <br>
+      ## **Development of Distributed On-Chip Memory-Compute Integration PIM Semiconductor Technology for Edge Use**
+      *DEEPX* (Apr 2022 - Dec 2022)
+
+      - Deploy the 3D object detection model to NVIDIA Jetson AGX Xavier
+      - Optimize the 3D object detection model using the TensorRT library
+
+  - title: Review Experiences  # Title for the section
+    layout: text # Type of content section (list/text)
+    content: |
+      <ul style="font-size: 20px;">
+        <li><strong>Conference Review :</strong> ICRA</li>
+        <li><strong>Journal Review :</strong> IEEE TVT</li>
+      </ul>
+
+  - title: Patents  # Title for the section
+    layout: text # Type of content section (list/text)
+    content: |
+      ## **PILLAR BASED POINT CLOUD GENERATION METHOD AND APPARATUS THEREOF (KR - Application No.10-2024-0033128)**
+      
+      <span style="font-size: 20px;">Jun Won Choi, **Geonho Bang**, Jisong Kim</span>
+
+      <br>
+      ## **3D OBJECT DETECTION APPARATUS AND METHOD THEREOF (KR - Application No.10-2024-0033147)**
+
+      <span style="font-size: 20px;">Jun Won Choi, **Geonho Bang**, Jisong Kim, Kwangjin Choi</span>
+
+  - title: Skills  # Title for the section
+    layout: text # Type of content section (list/text)
+    content: |
+      <ul style="font-size: 20px;">
+        <li><strong>Computer Languages :</strong> Python, C++</li>
+        <li><strong>Deep Learning Tools :</strong> Pytorch, Tensorflow</li>
+        <li><strong>Language :</strong> Korean (Native), English (Intermediate)</li>
+      </ul>
+ 
+# Footer
+footer_show_references: False
+# references_title: References on request (Override references text)
+
+# Build settings
+remote_theme: sproogen/resume-theme
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
